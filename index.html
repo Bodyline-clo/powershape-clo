@@ -2257,6 +2257,38 @@
             showRemoveButtons();
         });
     </script>
+    <!-- FOOTER PROFESIONAL MINIMALISTA -->
+<footer style="background: #1a1a2e; padding: 30px 20px; text-align: center; color: white;">
+    <div style="max-width: 600px; margin: 0 auto;">
+        <!-- Logo y marca -->
+        <img src="https://cdn.shopify.com/s/files/1/0617/3540/3586/files/Bodylinecon_circulo.png?v=1753228639" alt="Bodyline" style="height: 50px; margin-bottom: 20px; opacity: 0.9;">
+        
+        <!-- Links clicleables minimalistas -->
+        <div style="margin-bottom: 20px;">
+            <a href="#" onclick="showTerms()" style="color: #ff6b6b; text-decoration: none; margin: 0 15px; font-size: 0.9rem;">Términos</a>
+            <a href="#" onclick="showPrivacy()" style="color: #ff6b6b; text-decoration: none; margin: 0 15px; font-size: 0.9rem;">Privacidad</a>
+            <a href="#" onclick="showContact()" style="color: #ff6b6b; text-decoration: none; margin: 0 15px; font-size: 0.9rem;">Contacto</a>
+        </div>
+        
+        <!-- Copyright simple -->
+        <p style="margin: 0; opacity: 0.7; font-size: 0.85rem;">© 2025 PowerShape Colombia. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+<!-- JAVASCRIPT PARA LOS POPUPS -->
+<script>
+function showTerms() {
+    alert("TÉRMINOS Y CONDICIONES\n\n• Garantía de satisfacción 10 días\n• Envío gratis a toda Colombia\n• Pago contraentrega seguro\n• Los resultados pueden variar según cada persona\n• Pedidos sujetos a disponibilidad\n\nPara más información escríbenos a: ventas@tiendabodyline.co");
+}
+
+function showPrivacy() {
+    alert("POLÍTICA DE PRIVACIDAD\n\n• Protegemos tus datos personales\n• No compartimos información con terceros\n• Usamos tus datos solo para procesar pedidos\n• Puedes solicitar eliminar tus datos\n• Cumplimos con la ley de protección de datos\n\nContacto: ventas@tiendabodyline.co");
+}
+
+function showContact() {
+    window.location.href = "mailto:ventas@tiendabodyline.co?subject=Consulta sobre PowerShape&body=Hola,%0D%0A%0D%0ATengo una consulta sobre PowerShape...%0D%0A%0D%0AGracias";
+}
+</script>
 
 </body>
 </html>
