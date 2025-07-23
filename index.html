@@ -2219,6 +2219,17 @@
                 );
 
                 success.style.display = 'block';
+    
+    // Evento de conversión de Facebook
+    fbq('track', 'Lead', {
+    content_name: 'PowerShape Colombia',
+    content_category: 'Faja Moldeadora',
+    value: 89900,
+    currency: 'COP'
+});
+    });
+    
+    event.target.reset();
                 event.target.reset();
                 
                 productCounter = 1;
